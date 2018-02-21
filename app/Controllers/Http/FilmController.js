@@ -56,7 +56,7 @@ class FilmController {
     }
     await film.delete()
 
-    return response.status(204).json({data: null})
+    return response.status(204).json(null)
   }
 }
 
